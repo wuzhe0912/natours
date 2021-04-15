@@ -1,57 +1,70 @@
-# Course Material and FAQ for my Advanced CSS Course
+# Getting Started with Create React App
 
-This repo contains starter files and the finished project files for all the projects contained in the course.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Plus, I made all the course slides available for download, to make it easier to follow along the conceptual videos.
+## Available Scripts
 
-👇 ***Please read the following Frequently Asked Questions (FAQ) carefully before starting the course*** 👇
+In the project directory, you can run:
 
-## FAQ
+### `yarn start`
 
-### Q1: How do I download the files?
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**A:** If you're new to GitHub and just want to download the complete package, hit the green button saying "Clone or download", choose the "Download ZIP" option, and you're good to go.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Q2: One of the NPM packages is not working (compiling Sass, live-reload, etc). How to fix it?
+### `yarn test`
 
-Unfortunately, this is quite common. I listed some possible fixes [in this document](npm-fixes.md).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Q3: I'm stuck in one of the projects. Where do I get help?
+### `yarn build`
 
-**A:** Have you extensively tried fixing the problem on your own? If you failed at fixing it, please **post a detailled description of the problem to the Q&A area of that video over at Udemy**, along with a [codepen](https://codepen.io/pen/) containing your code. You will get help as fast as possible! Please don't send me a personal message or email to fix coding problems.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Q4: You keep mentioning your resources page. Where can I find it?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**A:** It's on my website at <http://codingheroes.io/resources>. You can subscribe for updates 😉
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Q5: What VSCode theme are you using?
+### `yarn eject`
 
-**A:** I use Oceanic Next (dimmed bg) for all my coding and course production. [Here is my complete VSCode setup](vscode-setup.md).
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Q6: You use codepens in some of the lectures. Where can I find them?
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**A:** They are all available on my [public codepen profile](https://codepen.io/jonasschmedtmann/pens/public/). The ones you're looking for might be buried under some newer ones.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Q7: can I see a final version of the course projects?
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-**A:** Sure, I have an online version of all three. Here they are: [Natours](https://natours.netlify.com) (advanced CSS, Sass and responsive design), [Trillo](http://trillo.netlify.com/) (flexbox) and [Nexter](https://nexter.netlify.com/) (CSS Grid).
+## Learn More
 
-### Q8: The videos don't load, can you fix it?
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**A:** Unfortunately, there is nothing I can do about it. The course is hosted on Udemy's platform, and sometimes they have small technical issues like this one. Please just come back a bit later or [contact their support team](https://support.udemy.com/hc/en-us). Also, don't forget to select the HD option in the video player.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Q9: Are the videos downloadable as well?
+### Code Splitting
 
-**A:** Yes, I made all videos downloadable on the Udemy platform so you can learn even without an internet connection. To download a video, use the settings icon in the right bottom corner of the video player.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Q10: I love your courses and want to get updates on new courses. How?
+### Analyzing the Bundle Size
 
-**A:** First, you can subscribe to my email list [at my website](http://codingheroes.io/newsletter). Plus, I make important announcements on twitter [@jonasschmedtman](https://twitter.com/jonasschmedtman), so you should definitely follow me there 🔥
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Q11: Can I connect with your other students in some way?
+### Making a Progressive Web App
 
-**A:** Yep, I thought about this! I started quite an active Discord chatroom for you to chat with other students, help each other out or just hang out with like-minded people. You can [join using this invite](https://discord.gg/0ocsLcmnIZqxMSYD).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Q12: How do I get my certificate of completion?
+### Advanced Configuration
 
-**A:** A certificate of completion is provided by Udemy after you complete 100% of the course. After completing the course, just click on the small trophy icon on the course overview page. If you want to change your name on the certificate, please [contact the Udemy support team](https://support.udemy.com/hc/en-us).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
