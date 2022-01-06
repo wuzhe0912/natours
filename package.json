@@ -39,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "eslint": "^8.6.0",
@@ -54,10 +56,16 @@
     "lint-staged": "^12.1.5",
     "prettier": "2.5.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx}": [
-      "yarn lint",
-      "yarn prettier"
+      "yarn prettier",
+      "yarn lint"
     ]
   }
 }
